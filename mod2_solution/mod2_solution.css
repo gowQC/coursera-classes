@@ -1,1 +1,57 @@
+/*DESKTOP 
+The browser should display a desktop version of the site when the width of the browser window is 992px and above.
 
+Should use @media (min-width: 992px) {}
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 40px; /*margin bottom for "Our Menu"*/
+  text-align: center;
+}
+
+.row {
+  width: 100%; /*use all of the div given labeled class "row"*/
+}
+
+h2{
+  text-align: right; /*text on right for h2*/
+  background-color: greenyellow;    
+  border: 1px solid black;
+  padding-right: 35px;
+  padding-left: 35px;
+  height: 30px;  
+}
+
+p {
+  text-align: left; /*text starts on left*/
+  background-color: dimgray;
+  border: 1px solid black;
+  width: auto;
+  height: 160px;
+  margin: -22px;
+  margin-top: 2px;
+  padding: 10px; /* top right bottom left, but setting just one sets all*/
+  font-family: Helvetica;
+  color: skyblue;
+}
+
+
+/*Desktop with 992px and greater*/
+@media (min-width: 992px) {
+  .desktop, .desktop2, .desktop3 {
+    float: left;
+  }
+  .desktop {
+    width: 33.33%;
+  }
+  .desktop2 {
+    width: 66.66%;
+  }
+  .desktop3 {
+    width: 100%;
+  }
+}
