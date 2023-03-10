@@ -1,0 +1,73 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: darkcyan;
+}
+
+@media(min-width: 768px) and (max-width: 1600px){
+	span.invis{ 
+		display: none;
+		/*Hides text when between 768px and 1600px. Now only visible in dropdown*/
+	}
+}
+
+#header-nav{
+	background-color: darkred;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{
+	font-family: serif;
+	color: green;
+	font-size: 1.5em;
+	text-transform: uppercase;
+
+	text-shadow: 1px 1px 1px #222; /*Shadow behind brand text*/
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+} /*Removes underline from hovering on brand name*/
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+div.entree{
+	box-sizing: border-box;
+	color: black;
+	text-align: center;
+	background-color: #ffcccb;
+	padding-top: 10px;
+	padding-bottom: 200px;
+	margin: 50px;
+}
+
+h1{
+	margin-top: 100px;
+	color: black;
+}
+
+#nav-list {
+  margin-top: 10px;
+  color: green;
+  text-align: center;
+}
