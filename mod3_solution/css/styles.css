@@ -4,10 +4,10 @@ body {
   background-color: darkcyan;
 }
 
-@media(min-width: 768px) and (max-width: 1600px){
+@media(min-width: 768px) and (max-width: 3000px){
 	span.invis{ 
 		display: none;
-		/*Hides text when between 768px and 1600px. Now only visible in dropdown*/
+		/*Hides text when between 768px and 3000px. Now only visible in dropdown*/
 	}
 }
 
